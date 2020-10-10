@@ -1,0 +1,9 @@
+##
+## Here is an example for json files.
+##
+syntax "json" "\.json$"
+icolor brightcyan    start="\{|," end="\}"
+icolor brightwhite   start="\":" end="([;^\{]|$)"
+icolor brightgreen   ",|;|:"
+icolor brightyellow  "\{|\}"
+icolor brightred     ",|\"|\[|\]"
