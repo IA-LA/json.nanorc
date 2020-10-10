@@ -1,0 +1,2 @@
+# json.nanorc
+json.nanorc
